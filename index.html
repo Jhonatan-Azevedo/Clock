@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Font Koulen -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Relógio</title>
+
+
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <div class="btn-group">
+        <span class="btn btn-analog" role="button">Analógico</span>
+        <span class="btn btn-digital" role="button">Digital</span>
+    </div>
+
+    <div id="field-analog-clock">
+        <div class="analog-clock">
+            <div class="hand seconds"></div>
+            <div class="hand minutes"></div>
+            <div class="hand hours"></div>
+
+            <div class="div number number-1">1</div>
+            <div class="div number number-2">2</div>
+            <div class="div number number-3">3</div>
+            <div class="div number number-4">4</div>
+            <div class="div number number-5">5</div>
+            <div class="div number number-6">6</div>
+            <div class="div number number-7">7</div>
+            <div class="div number number-8">8</div>
+            <div class="div number number-9">9</div>
+            <div class="div number number-10">10</div>
+            <div class="div number number-11">11</div>
+            <div class="div number number-12">12</div>
+        </div>
+    </div>
+
+    <div id="filed-digital-clock">
+        <div class="digital-clock">
+            <div>
+                <span class="digital-hours digital-font">00</span>
+                <span class="digital-timer">Horas</span>
+            </div>
+            <div>
+                <span id="digital-minutes" class="digital-font">00</span>
+                <span class="digital-timer">Minutos</span>
+            </div>
+            <div>
+                <span class="digital-seconds digital-font">00</span>
+                <span class="digital-timer">Segundos</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
